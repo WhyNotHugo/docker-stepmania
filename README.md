@@ -11,9 +11,15 @@ Stepmania can be *hard* to get up and running:
 * Using latest git version is incompatible with a lot of content on the web.
 * Lots of themes, skinnotes, etc only work on 5.0.
 
-Run this by using this helper script (add it to your path somewhere):
+# Usage
 
-```
+First of all, build the image (you only need to do this once):
+
+    docker build -t stepmania .
+
+Then run this by using this helper script (add it to your path somewhere):
+
+```sh
 #!/bin/sh
 #
 # Runs stepmania inside a docker container
