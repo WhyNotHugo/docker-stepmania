@@ -37,7 +37,7 @@ docker run -it --rm\
   -v /run/user/$UID/pulse/native:/path/to/pulseaudio/socket \
   -v ~/.config/pulse/cookie:/run/pulse/cookie \
   --device /dev/snd \
-  stepmania
+  whynothugo/stepmania
 ```
 
 This should allow pulseaudio and X11 forwarding from the docker container. Just
